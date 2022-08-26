@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 25: Calcule o volume de uma caixa d'·gua cilÌndrica. */
+/* EXERC√çCIO 25: Calcule o volume de uma caixa d'√°gua cil√≠ndrica. */
 
 int main()
 {
     float raio,altura,volume;
 
-    /* Pede para o usu·rio digitar os valores: */
+    /* Pede para o usu√°rio digitar os valores: */
     printf("Digite a altura do cilindro em metros: \n");
     scanf("%f",&altura);
 
     printf("Digite o raio cilindro em metros: \n");
     scanf("%f",&raio);
 
-    /* C·lculo: */
+    /* C√°lculo: */
     volume=altura*(raio*raio*3.14);
 
     /* Mostra os resultados: */
