@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÍCIO 26: Faça um algoritmo que receba três números, calcule e mostre a multiplicação desses números. */
+/* EXERCÃCIO 26: FaÃ§a um algoritmo que receba trÃªs nÃºmeros, calcule e mostre a multiplicaÃ§Ã£o desses nÃºmeros. */
 
 int main()
 {
     float a,b,c;
 
-    /* Pede para o usuário digitar os três números: */
+    /* Pede para o usuÃ¡rio digitar os trÃªs nÃºmeros: */
     printf("Digite o primeiro numero: \n");
     scanf("%f",&a);
 
@@ -16,7 +16,7 @@ int main()
     printf("Digite o terceiro numero: \n");
     scanf("%f",&c);
 
-     /* Exibe o resultado para o usuário: */
+     /* Exibe o resultado para o usuÃ¡rio: */
     printf("Resultado: \n %.2f * %.2f *%.2f = %.2f. \n",a,b,c,a*b*c);
 
     return 0;
