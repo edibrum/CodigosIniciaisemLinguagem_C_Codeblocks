@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 1: A imobili·ria ImÛbilis vende apenas terrenos retangulares. FaÁa um algoritmo para ler as dimensıes de um
-terreno e depois exibir a ·rea do terreno. */
+/* EXERC√çCIO 1: A imobili√°ria Im√≥bilis vende apenas terrenos retangulares. Fa√ßa um algoritmo para ler as dimens√µes de um
+terreno e depois exibir a √°rea do terreno. */
 
 int main()
 {
     float a,b,c;
 
-    /*Pede as duas dimensıes para o usu·rio: */
+    /*Pede as duas dimens√µes para o usu√°rio: */
     printf("Digite a largura do terreno em metros: \n");
     scanf("%f",&a);
 
     printf("Digite a altura do terreno em metros: \n");
     scanf("%f",&b);
 
-    /*Calcula a ·rea: */
+    /*Calcula a √°rea: */
     c=a*b;
 
-    /*Exibe o resultado (·rea) para o usu·rio: */
+    /*Exibe o resultado (√°rea) para o usu√°rio: */
     printf("A area deste terreno e de %.2f metros quadrados.",c);
 
     return 0;
