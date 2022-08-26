@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 34: FaÁa um algoritmo que calcule e mostre a ·rea de um quadrado. Sabe-se que: A = lado * lado; */
+/* EXERC√çCIO 34: Fa√ßa um algoritmo que calcule e mostre a √°rea de um quadrado. Sabe-se que: A = lado * lado; */
 
 int main()
 {
     float l;
 
-    /*Pede ao usu·rio que digite o lado:*/
+    /*Pede ao usu√°rio que digite o lado:*/
     printf("Digite a medida do lado do quadrado: \n");
     scanf("%f",&l);
 
