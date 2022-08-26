@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 23: Num dia de sol, vocÍ deseja medir a altura de um prÈdio, porÈm, a trena n„o È suficientemente longa. Assumindo
-que seja possÌvel medir sua sombra e a do prÈdio no ch„o, e que vocÍ lembre da sua altura, faÁa um algoritmo para ler os dados
-necess·rios e calcular a altura do prÈdio. */
+/* EXERC√çCIO 23: Num dia de sol, voc√™ deseja medir a altura de um pr√©dio, por√©m, a trena n√£o √© suficientemente longa. Assumindo
+que seja poss√≠vel medir sua sombra e a do pr√©dio no ch√£o, e que voc√™ lembre da sua altura, fa√ßa um algoritmo para ler os dados
+necess√°rios e calcular a altura do pr√©dio. */
 
 int main()
 {
 
     float a,s,x,c;
 
-    /* Pede para o usu·rio digitar os dados: */
+    /* Pede para o usu√°rio digitar os dados: */
     printf("Digite a sua altura em metros: \n");
     scanf("%f",&a);
 
@@ -19,7 +19,7 @@ int main()
     printf("Digite o comprimento da sombra do predio em metros: \n");
     scanf("%f",&c);
 
-    /*C·lculo*/
+    /*C√°lculo*/
     x=(a*c)/s;
 
     printf("A altura do predio e de aproximadamente %.2f metros. \n",x);
