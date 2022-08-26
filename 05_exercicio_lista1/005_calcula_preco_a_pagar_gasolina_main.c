@@ -1,25 +1,25 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÍCIO 5:  Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um algoritmo para ler o preço do
+/* EXERCÃCIO 5:  Um motorista deseja colocar no seu tanque X reais de gasolina. Escreva um algoritmo para ler o preÃ§o do
 litro da gasolina e o valor do pagamento, e exibir quantos litros ele conseguiu colocar no tanque. */
 
 int main()
 {
    float pagam,preco,litros;
 
-    /*Pede o preço do litro da gasolina para o usuário: */
+    /*Pede o preÃ§o do litro da gasolina para o usuÃ¡rio: */
     printf("Digite o preco do litro de gasolina: \n");
     scanf("%f",&preco);
 
-    /*Pede quantos reais o usuário pagou: */
+    /*Pede quantos reais o usuÃ¡rio pagou: */
     printf("Digite quantos reais voce pagou: \n");
     scanf("%f",&pagam);
 
 
-    /*Cálculo: */
+    /*CÃ¡lculo: */
     litros=pagam/preco;
 
-    /*Exibe o resultado para o usuário: */
+    /*Exibe o resultado para o usuÃ¡rio: */
     printf("\n \n Voce conseguiu colocar aproximadamente %.f litros de gasolina no seu tanque. \n \n",litros);
 
     return 0;
