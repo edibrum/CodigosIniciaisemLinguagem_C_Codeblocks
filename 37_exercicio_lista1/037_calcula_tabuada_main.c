@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÍCIO 37: Faça um algoritmo que calcule e mostre a tabuada de um número digitado pelo usuário. */
+/* EXERCÃCIO 37: FaÃ§a um algoritmo que calcule e mostre a tabuada de um nÃºmero digitado pelo usuÃ¡rio. */
 
 int main()
 {
     float a;
 
-    /*Pede para o usuário digitar o número:*/
+    /*Pede para o usuÃ¡rio digitar o nÃºmero:*/
     printf("Digite um numero: \n");
     scanf("%f",&a);
 
