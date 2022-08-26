@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÍCIO 36: . Faça um algoritmo que receba o valor do salário mínimo e o valor do salário de um funcionário, calcule e
-mostre a quantidade de salários mínimos que ganha esse funcionário. */
+/* EXERCÃCIO 36: FaÃ§a um algoritmo que receba o valor do salÃ¡rio mÃ­nimo e o valor do salÃ¡rio de um funcionÃ¡rio, calcule e
+mostre a quantidade de salÃ¡rios mÃ­nimos que ganha esse funcionÃ¡rio. */
 
 int main()
 {
     float sm,ss;
 
-    /*Pede para o usuário digitar o valor do salario minimo e do dele:*/
+    /*Pede para o usuÃ¡rio digitar o valor do salario minimo e do dele:*/
     printf("Digite o valor do salario minimo: \n");
     scanf("%f",&sm);
 
