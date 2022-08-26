@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 10: Construa um algoritmo para calcular a dist‚ncia entre dois pontos do plano cartesiano. Cada ponto È um par
+/* EXERC√çCIO 10: Construa um algoritmo para calcular a dist√¢ncia entre dois pontos do plano cartesiano. Cada ponto √© um par
 ordenado (x,y). */
 
 int main()
@@ -24,10 +24,10 @@ int main()
     printf("Digite a coordenada y do segundo ponto: \n");
     scanf("%d",&q);
 
-    /* C·lculo: */
+    /* C√°lculo: */
     d=sqrt((p-a)*(p-a)+(q-b)*(q-b));
 
-    /*Exibe o resultado para o usu·rio: */
+    /*Exibe o resultado para o usu√°rio: */
     printf("\n A distancia entre os pontos (%d,%d) e (%d,%d) e aproximadamente: %.2f .\n",a,b,p,q,d);
 
     return 0;
