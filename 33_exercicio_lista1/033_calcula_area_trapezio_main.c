@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 33: FaÁa um algoritmo que calcule e mostre a ·rea de um trapÈzio. Sabe-se que: A = (base maior + base menor)* altura)/2 ; */
+/* EXERC√çCIO 33: Fa√ßa um algoritmo que calcule e mostre a √°rea de um trap√©zio. Sabe-se que: A = (base maior + base menor)* altura)/2 ; */
 
 int main()
 {
     float a,b,h,area;
 
-    /*Pede ao usu·rio que digite as medidas do trapezio:*/
+    /*Pede ao usu√°rio que digite as medidas do trapezio:*/
     printf("Digite o valor da base maior: \n");
     scanf("%f",&a);
 
@@ -16,7 +16,7 @@ int main()
     printf("Digite o valor da altura: \n");
     scanf("%f",&h);
 
-    /*C·lculo:*/
+    /*C√°lculo:*/
     area=((a+b)*h)/2;
 
     /*Exibe o resultado:*/
