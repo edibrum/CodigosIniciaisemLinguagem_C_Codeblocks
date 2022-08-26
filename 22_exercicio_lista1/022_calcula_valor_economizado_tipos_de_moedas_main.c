@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 22: Pedrinho tem um cofrinho com muitas moedas, e deseja saber quantos reais conseguiu poupar. FaÁa um
+/* EXERC√çCIO 22: Pedrinho tem um cofrinho com muitas moedas, e deseja saber quantos reais conseguiu poupar. Fa√ßa um
 algoritmo para ler a quantidade de cada tipo de moeda, e imprimir o valor total economizado, em reais.
-Considere que existam moedas de 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real. N„o havendo moeda de
-um tipo, a quantidade respectiva È zero. */
+Considere que existam moedas de 1, 5, 10, 25 e 50 centavos, e ainda moedas de 1 real. N√£o havendo moeda de
+um tipo, a quantidade respectiva √© zero. */
 
 int main()
 {
     int one,five,ten,quarter,fifty,real;
     float t1,t5,t10,t25,t50,tr;
 
-    /* Pede ao usu·rio para digitar as quantidades e calcula o total relativo a cada tipo:*/
+    /* Pede ao usu√°rio para digitar as quantidades e calcula o total relativo a cada tipo:*/
     printf("Digite a quantidade de  moedas de 1 centavos: \n");
     scanf("%d",&one);
     t1=one*0.01;
@@ -35,7 +35,7 @@ int main()
     scanf("%d",&real);
     tr=real*1.00;
 
-    /*Retorna o total economizado para o usu·rio: */
+    /*Retorna o total economizado para o usu√°rio: */
     printf("O total economizado foi de R$ %.2f \n", t1+t5+t10+t25+t50+tr);
 
 
