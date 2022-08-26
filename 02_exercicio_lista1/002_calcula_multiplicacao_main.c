@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÕCIO 2: FaÁa um algoritmo para calcular quantas ferraduras s„o necess·rias para equipar todos os cavalos comprados para um haras. */
+/* EXERC√çCIO 2: Fa√ßa um algoritmo para calcular quantas ferraduras s√£o necess√°rias para equipar todos os cavalos comprados para um haras. */
 
 int main()
 {
@@ -10,10 +10,10 @@ int main()
     printf("Digite quantos cavalos foram comprados: \n");
     scanf("%d",&a);
 
-    /*C·lculo: */
+    /*C√°lculo: */
     b=a*4;
 
-    /*Exibe o resultado (quantidade de ferraduras) para o usu·rio: */
+    /*Exibe o resultado (quantidade de ferraduras) para o usu√°rio: */
     printf("Sao necessarias %d ferraduras para equipar os %d cavalos comprados.",b,a);
 
     return 0;
