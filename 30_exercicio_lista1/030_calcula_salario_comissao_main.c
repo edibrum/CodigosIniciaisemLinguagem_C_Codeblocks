@@ -1,21 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
-/* EXERCÍCIO 30: . Um funcionário recebe um salário fixo mais 4% de comissão sobre as vendas. Faça um algoritmo que receba
-o salário fixo de um funcionário e o valor de suas vendas, calcule e mostre a comissão e o salário final do
-funcionário. */
+/* EXERCÃCIO 30: . Um funcionÃ¡rio recebe um salÃ¡rio fixo mais 4% de comissÃ£o sobre as vendas. FaÃ§a um algoritmo que receba
+o salÃ¡rio fixo de um funcionÃ¡rio e o valor de suas vendas, calcule e mostre a comissÃ£o e o salÃ¡rio final do
+funcionÃ¡rio. */
 
 int main()
 {
     float fixo,vendas,comissao,salariof;
 
-    /* Pede ao usuário que digite o salário fixo, e o valor de suas vendas: */
+    /* Pede ao usuÃ¡rio que digite o salÃ¡rio fixo, e o valor de suas vendas: */
     printf("Digite o salario fixo do funcionario: \n");
     scanf("%f",&fixo);
 
     printf("Agora, digite o valor das vendas do funcionario: \n");
     scanf("%f",&vendas);
 
-    /*Cálculos:*/
+    /*CÃ¡lculos:*/
     comissao=vendas*0.04;
     salariof=fixo+comissao;
 
