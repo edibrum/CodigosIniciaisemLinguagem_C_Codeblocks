@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
-EXERCÍCIO 9: Escreva um algoritmo que leia o número de identificação do aluno, 3 notas obtidas e calcule a média aritmética obtida pelo aluno.
-Ao final informe se o aluno foi aprovado direto, ficou em recuperação ou foi reprovado por nota.*/
+EXERCÃCIO 9: Escreva um algoritmo que leia o nÃºmero de identificaÃ§Ã£o do aluno, 3 notas obtidas e calcule a mÃ©dia aritmÃ©tica obtida pelo aluno.
+Ao final informe se o aluno foi aprovado direto, ficou em recuperaÃ§Ã£o ou foi reprovado por nota.*/
 
 int main()
 {
     int matricula,n1,n2,n3;
     float media;
 
-    /*Pede ao usuário que digite os dados:*/
+    /*Pede ao usuÃ¡rio que digite os dados:*/
     printf("Digite o numero de identificacao do aluno: \n");
     scanf("%d",&matricula);
 
@@ -22,10 +22,10 @@ int main()
     printf("Digite a terceira nota(0 a 100): \n");
     scanf("%d",&n3);
 
-    /*Cálculo da média:*/
+    /*CÃ¡lculo da mÃ©dia:*/
     media=(n1+n2+n3)/3;
 
-    /*Análise condicionada:*/
+    /*AnÃ¡lise condicionada:*/
     if (media>=70.00)
         printf("O aluno foi APROVADO com nota %.2f.\n",media);
     else if (media>=40.00)
