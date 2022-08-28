@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
-EXERCÕCIO 10: Elabore um algoritmo que leia dois n˙meros inteiros e mostre o resultado da diferenÁa do maior valor pelo menor; */
+EXERC√çCIO 10: Elabore um algoritmo que leia dois n√∫meros inteiros e mostre o resultado da diferen√ßa do maior valor pelo menor; */
 int main()
 {
     int a,b,dif;
 
-    /*Pede ao usu·rio que digite os dados:*/
+    /*Pede ao usu√°rio que digite os dados:*/
     printf("Digite o primeiro numero inteiro: \n");
     scanf("%d",&a);
 
