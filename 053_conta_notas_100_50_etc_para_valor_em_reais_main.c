@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
-EXERCÕCIO 13: . Escrever um algoritmo que leia um valor em reais e calcule qual o menor n˙mero possÌvel de notas de 100,
-50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relaÁ„o de notas necess·rias.
+EXERC√çCIO 13: Escrever um algoritmo que leia um valor em reais e calcule qual o menor n√∫mero poss√≠vel de notas de 100,
+50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a rela√ß√£o de notas necess√°rias.
 */
 int main()
 {
     float valor;
     int cem,cinq,dez,cinco,um;
 
-    /*Pede para o usu·rio digitar os dados:*/
+    /*Pede para o usu√°rio digitar os dados:*/
     printf("Digite o valor em reais: \n");
     scanf("%f",&valor);
 
