@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
- EXERCÕCIO 5: FaÁa um algoritmo que leia uma vari·vel e some 5 caso seja par ou some 8 caso seja Ìmpar, imprimir o resultado desta operaÁ„o. */
+ EXERC√çCIO 5: Fa√ßa um algoritmo que leia uma vari√°vel e some 5 caso seja par ou some 8 caso seja √≠mpar, imprimir o resultado desta opera√ß√£o. */
 
 int main()
 {
     int numero;
 
-    /*Pede para o usu·rio digitar o n˙mero: */
+    /*Pede para o usu√°rio digitar o n√∫mero: */
     printf("Digite o numero:\n");
     scanf("%d",&numero);
 
-    /*Confere se È par ou Ìmpar:*/
+    /*Confere se √© par ou √≠mpar:*/
     if (numero%2==0)
     printf("O numero e par e o resultado e: %d+5=%d. \n",numero,numero+5);
 
