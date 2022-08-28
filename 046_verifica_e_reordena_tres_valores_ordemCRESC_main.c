@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
- EXERCÍCIO 6: Escreva um algoritmo que leia três valores inteiros e diferentes e mostre-os em ordem decrescente. */
+ EXERCÃCIO 6: Escreva um algoritmo que leia trÃªs valores inteiros e diferentes e mostre-os em ordem decrescente. */
 
 int main()
 {
     int a,b,c,m1,m2,m3;
-    /* Pede ao usuário que digite os três números: */
+    /* Pede ao usuÃ¡rio que digite os trÃªs nÃºmeros: */
     printf("Digite o primeiro numero \n");
     scanf("%d",&a);
 
