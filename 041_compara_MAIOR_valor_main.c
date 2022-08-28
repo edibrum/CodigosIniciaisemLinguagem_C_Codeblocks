@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
- EXERCÕCIO 1: FaÁa um algoritmo que leia dois valores A e B e imprima o maior deles. */
+ EXERC√çCIO 1: Fa√ßa um algoritmo que leia dois valores A e B e imprima o maior deles. */
 
 int main()
 {
     int a,b;
 
-    /* Pede para o usu·rio digitar os valores: */
+    /* Pede para o usu√°rio digitar os valores: */
     printf("Digite o primeiro valor: \n");
     scanf("%d",&a);
 
