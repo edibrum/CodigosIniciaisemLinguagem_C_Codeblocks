@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
-EXERCÕCIO 15: Uma empresa conceder· um aumento de sal·rio aos seus funcion·rios, vari·vel de acordo com o cargo, conforme a tabela abaixo.
-FaÁa um algoritmo que leia o sal·rio e o cargo de um funcion·rio e calcule o novo sal·rio. Se o cargo do funcion·rio n„o estiver na tabela,
-ele dever·, ent„o, receber 40% de aumento. Mostre o sal·rio antigo, o novo sal·rio e a diferenÁa. */
+EXERC√çCIO 15: Uma empresa conceder√° um aumento de sal√°rio aos seus funcion√°rios, vari√°vel de acordo com o cargo, conforme a tabela abaixo.
+Fa√ßa um algoritmo que leia o sal√°rio e o cargo de um funcion√°rio e calcule o novo sal√°rio. Se o cargo do funcion√°rio n√£o estiver na tabela,
+ele dever√°, ent√£o, receber 40% de aumento. Mostre o sal√°rio antigo, o novo sal√°rio e a diferen√ßa. */
 
 int main()
 {
     float s,sn;
     int codigo;
 
-    /*Pede para o usu·rio digitar os dados:*/
+    /*Pede para o usu√°rio digitar os dados:*/
     printf("Digite o salario do funcionario: \n");
     scanf("%f",&s);
 
