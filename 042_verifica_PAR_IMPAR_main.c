@@ -1,17 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
- EXERCÕCIO 2: FaÁa um algoritmo para receber um n˙mero qualquer e informar na tela se È par ou Ìmpar. */
+ EXERC√çCIO 2: Fa√ßa um algoritmo para receber um n√∫mero qualquer e informar na tela se √© par ou √≠mpar. */
 
 int main()
 {
     int numero;
 
-    /*Pede para o usu·rio digitar o n˙mero: */
+    /*Pede para o usu√°rio digitar o n√∫mero: */
     printf("Digite o numero:\n");
     scanf("%d",&numero);
 
-    /*Confere se È par ou Ìmpar:*/
+    /*Confere se √© par ou √≠mpar:*/
     if (numero%2==0)
     printf("O numero %d e par. \n",numero);
 
