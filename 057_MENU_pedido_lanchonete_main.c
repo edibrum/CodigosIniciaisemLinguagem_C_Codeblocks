@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
-EXERCÕCIO 17: Para uma lanchonete, escrever um algoritmo que leia o cÛdigo do item pedido, a quantidade e calcule o valor
-a ser pago por aquele lanche. Considere que a cada execuÁ„o somente ser· calculado um item. O card·pio È o seguinte:
-Produto PreÁo
+EXERC√çCIO 17: Para uma lanchonete, escrever um algoritmo que leia o c√≥digo do item pedido, a quantidade e calcule o valor
+a ser pago por aquele lanche. Considere que a cada execu√ß√£o somente ser√° calculado um item. O card√°pio √© o seguinte:
+Produto Pre√ßo
 1 - Cachorro quente R$11,00
 2 - Bauru R$ 8,50
 3 - Misto Quente R$ 8,00
