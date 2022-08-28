@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /*LISTA 2:
-EXERCÕCIO 14: . Num determinado Estado, para transferÍncias de veÌculos, o DETRAN cobra:
+EXERC√çCIO 14: Num determinado Estado, para transfer√™ncias de ve√≠culos, o DETRAN cobra:
 * taxa de 1% para carros fabricados antes de 1990
 * taxa de 1.5% para os fabricados de 1990 em diante,
 Obs.: a taxa incide sobre o valor de tabela do carro.  Elabore um algoritmo que leia o ano e o valor de tabela do carro, calcule
@@ -12,7 +12,7 @@ int main()
     float valor,imposto;
     int ano;
 
-    /*Pede ao usu·rio que digite os dados:*/
+    /*Pede ao usu√°rio que digite os dados:*/
     printf("Digite o valor tabelado do carro em reais:\n");
     scanf("%f",&valor);
 
