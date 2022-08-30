@@ -3,8 +3,8 @@
 #include <locale.h>
 /*LISTA 3
 16) Escreva um algoritmo que simule o funcionamento de um caixa de supermercado.
-a) Seu algoritmo deve receber do usu·rio a informaÁ„o de quantos produtos o cliente comprou e, para cada produto,
-dever· ler o seu preÁo. Ao final, dever· informar quanto o cliente deve pagar pelas compras. */
+a) Seu algoritmo deve receber do usu√°rio a informa√ß√£o de quantos produtos o cliente comprou e, para cada produto,
+dever√° ler o seu pre√ßo. Ao final, dever√° informar quanto o cliente deve pagar pelas compras. */
 
 int main()
 {
@@ -21,42 +21,42 @@ int main()
     case(1):
     printf("\n Produto escolhido: ARROZ \n Digite a quantidade de pacotes:\n");
     scanf("%d",&n_arroz);
-    printf("\n Digite o preÁo de cada pacote:\n");
+    printf("\n Digite o pre√ßo de cada pacote:\n");
     scanf("%f",&p_arroz);
     total=total+(n_arroz*p_arroz);
     break;
 
     case(2):
-    printf("\n Produto escolhido: FEIJ√O \n Digite a quantidade de pacotes:\n");
+    printf("\n Produto escolhido: FEIJ√ÉO \n Digite a quantidade de pacotes:\n");
     scanf("%d",&n_feijao);
-    printf("\n Digite o preÁo de cada pacote:\n");
+    printf("\n Digite o pre√ßo de cada pacote:\n");
     scanf("%f",&p_feijao);
     total=total+(n_feijao*p_feijao);
     break;
 
     case(3):
-    printf("\n Produto escolhido: MACARR√O \n Digite a quantidade de pacotes:\n");
+    printf("\n Produto escolhido: MACARR√ÉO \n Digite a quantidade de pacotes:\n");
     scanf("%d",&n_macarrao);
-    printf("\n Digite o preÁo de cada pacote:\n");
+    printf("\n Digite o pre√ßo de cada pacote:\n");
     scanf("%f",&p_macarrao);
     total=total+(n_macarrao*p_macarrao);
     break;
 
     case(4):
-    printf("\n Produto escolhido: CAF… \n Digite a quantidade de pacotes:\n");
+    printf("\n Produto escolhido: CAF√â \n Digite a quantidade de pacotes:\n");
     scanf("%d",&n_cafe);
-    printf("\n Digite o preÁo de cada pacote:\n");
+    printf("\n Digite o pre√ßo de cada pacote:\n");
     scanf("%f",&p_cafe);
     total=total+(n_cafe*p_cafe);
     break;
 
     default:
-    printf("********************************** \n OpÁ„o Inv·lida! ATENC√O! \n \n ");
+    printf("********************************** \n Op√ß√£o Inv√°lida! ATENC√ÉO! \n \n ");
     }
     }
     while (opcao!=5);
     printf("******************************** /n Compra finalizada! \n ************************************** \n");
-    printf("Total de itens comprados: \n %d Arroz 5Kg \n %d Feij„o 1Kg \n %d Macarr„o 500gr \n %d CafÈ 500 gr \n *************** \n Total a pagar: R$ %.2f",n_arroz,n_feijao,n_macarrao,n_cafe,total);
-    printf("\n Agradecemos a sua preferÍncia! Volte smepre!");
+    printf("Total de itens comprados: \n %d Arroz 5Kg \n %d Feij√£o 1Kg \n %d Macarr√£o 500gr \n %d Caf√© 500 gr \n *************** \n Total a pagar: R$ %.2f",n_arroz,n_feijao,n_macarrao,n_cafe,total);
+    printf("\n Agradecemos a sua prefer√™ncia! Volte smepre!");
     return 0;
 }
