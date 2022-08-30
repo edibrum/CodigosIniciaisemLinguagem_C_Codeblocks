@@ -3,10 +3,10 @@
 #include <locale.h>
 /*LISTA 3
 19) Desenvolver um algoritmo que leia a altura de 15 pessoas.
-Este programa dever· calcular e mostrar :
+Este programa dever√° calcular e mostrar :
 a. A menor altura do grupo;
 b. A maior altura do grupo;
-OBS.: decidi mostrar tambÈm o nome das pessoas (mais alta e mais baixa)!!!
+OBS.: decidi mostrar tamb√©m o nome das pessoas (mais alta e mais baixa)!!!
 */
 
 int main()
@@ -14,13 +14,13 @@ int main()
     /* Para poder usar acentos e etc.:*/
     setlocale(LC_ALL, "Portuguese");
 
-   /*Cria as vari·veis: */
+   /*Cria as vari√°veis: */
     float altura,maior,menor;
     maior=0;
     menor=1000;
     char nome[20],maior_pessoa[20],menor_pessoa[20];
 
-    /*Pede que o usu·rio digite as os nomes e as alturas: */
+    /*Pede que o usu√°rio digite as os nomes e as alturas: */
     for (int i=1;i<=15;i++)
     {
     printf("\n Digite o nome da PESSOA %d:  ",i);
@@ -44,9 +44,9 @@ int main()
         }
     }
 
-    /*Mostra quem È a pessoa mais alta e a pessoa mais baixa, bem como suas alturas, respectivamente: */
-    printf("\n ************* \n A pessoa mais alta È @ %s e sua altura È de %.2f metros.\n",maior_pessoa,maior);
-    printf("\n ************* \n A pessoa mais baixa È @ %s e sua altura È de %.2f metros.\n",menor_pessoa,menor);
+    /*Mostra quem √© a pessoa mais alta e a pessoa mais baixa, bem como suas alturas, respectivamente: */
+    printf("\n ************* \n A pessoa mais alta √© @ %s e sua altura √© de %.2f metros.\n",maior_pessoa,maior);
+    printf("\n ************* \n A pessoa mais baixa √© @ %s e sua altura √© de %.2f metros.\n",menor_pessoa,menor);
 
 
     return 0;
