@@ -2,23 +2,23 @@
 #include <stdlib.h>
 #include <locale.h>
 /*LISTA 3
-23) Foi feita uma pesquisa de canal de TV em várias casas da cidade de João Câmara. Para cada
-casa visitada, foi preenchida uma ficha contendo o número do canal (3, 5, 8, 11 ou 13) e o número
-de pessoas que estavam assistindo o canal naquela casa. Faça um algoritmo que:
-a) Leia a informação da quantidade de casas participantes da pesquisa.
+23) Foi feita uma pesquisa de canal de TV em vÃ¡rias casas da cidade de JoÃ£o CÃ¢mara. Para cada
+casa visitada, foi preenchida uma ficha contendo o nÃºmero do canal (3, 5, 8, 11 ou 13) e o nÃºmero
+de pessoas que estavam assistindo o canal naquela casa. FaÃ§a um algoritmo que:
+a) Leia a informaÃ§Ã£o da quantidade de casas participantes da pesquisa.
 b) Receba:
-    as informações coletadas em cada uma das casas participantes da pesquisa;
-    a informação do canal que estava sendo assistido
+    as informaÃ§Ãµes coletadas em cada uma das casas participantes da pesquisa;
+    a informaÃ§Ã£o do canal que estava sendo assistido
     e a quantidade de pessoas que estava assistindo aquele canal na casa.
 c) Contabilize quantas pessoas estava assistindo cada canal (leve em conta a quantidade de pessoas que assistia cada canal em cada casa)
-d) Ao finalizar a leitura de todas as fichas, escreva o número do canal e sua respectiva porcentagem de audiência. */
+d) Ao finalizar a leitura de todas as fichas, escreva o nÃºmero do canal e sua respectiva porcentagem de audiÃªncia. */
 
 int main()
 {
     /* Para poder usar acentos e etc.:*/
     setlocale(LC_ALL, "Portuguese");
 
-    /*Cria as variáveis: */
+    /*Cria as variÃ¡veis: */
     int total_casas,canal,pessoas;
     int canal_3=0,canal_5=0,canal_8=0,canal_11=0,canal_13=0,total_telesp;
 
@@ -26,10 +26,10 @@ int main()
     scanf("%d",&total_casas);
 
     for(int i=1;i<=total_casas;i++){
-        printf("\n Sobre a CASA %d, responda: \n Digite o número do canal de TV assistido: 3, 5, 8, 11 ou 13 : \n",i);
+        printf("\n Sobre a CASA %d, responda: \n Digite o nÃºmero do canal de TV assistido: 3, 5, 8, 11 ou 13 : \n",i);
         scanf("%d",&canal);
 
-        printf("\n Digite o número de pessoas/telespectadores: \n");
+        printf("\n Digite o nÃºmero de pessoas/telespectadores: \n");
         scanf("%d",&pessoas);
 
         if(canal==3)
@@ -48,13 +48,13 @@ int main()
         canal_13=canal_13+pessoas;
 
         else
-        printf("\n Atenção: canal INVÁLIDO!");
+        printf("\n AtenÃ§Ã£o: canal INVÃLIDO!");
         }
 
     total_telesp=canal_3+canal_5+canal_8+canal_11+canal_13;
 
     printf("\n ******************************************** \n Total de telespectadores: %d \n",total_telesp);
-    printf("\n ******************************************** \n RESULTADO DA PESQUISA: AUDIÊNCIA DOS CANAIS: \n");
+    printf("\n ******************************************** \n RESULTADO DA PESQUISA: AUDIÃŠNCIA DOS CANAIS: \n");
     printf("\n Canal 3: %d %%",(canal_3*100)/total_telesp);
     printf("\n Canal 5: %d %%",(canal_5*100)/total_telesp);
     printf("\n Canal 8: %d %%",(canal_8*100)/total_telesp);
