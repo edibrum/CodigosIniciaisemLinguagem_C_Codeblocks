@@ -3,37 +3,37 @@
 #include <locale.h>
 
 /*LISTA 4
-9) Ler um vetor D de 10 elementos. Retire todos os valores nulos ou negativos do vetor D. Escrever o vetor apÛs a retirada dos nulos e negativos. */
+9) Ler um vetor D de 10 elementos. Retire todos os valores nulos ou negativos do vetor D. Escrever o vetor ap√≥s a retirada dos nulos e negativos. */
 
 int main()
 {
     /* Para poder usar acentos e etc:*/
     setlocale(LC_ALL, "Portuguese");
 
-    /* Declara as vari·veis: */
+    /* Declara as vari√°veis: */
     int TAM=3;
     int TAM_novo,numero,contador=0;
     int vetor[TAM];
 
     /* Cria o vetor D: */
     for(int i=0;i<TAM;i++){
-        printf("\n Digite a posiÁ„o %d do vetor D: ",i);
+        printf("\n Digite a posi√ß√£o %d do vetor D: ",i);
         scanf("%d",&numero);
         vetor[i]=numero;
 
-                /* Verifica quantos valores nulos h· no vetor: */
+                /* Verifica quantos valores nulos h√° no vetor: */
                 if(numero!=0){
                     contador++;
                 }
         }
 
-    /* Se o vetor sÛ tiver valores nulos: */
+    /* Se o vetor s√≥ tiver valores nulos: */
     if(contador==0){
-        printf("\n Todos os valores do vetor s„o nulos! \n");
+        printf("\n Todos os valores do vetor s√£o nulos! \n");
     }
 
 
-    /* Se o vetor tiver ao menos um valor n„o-nulo: */
+    /* Se o vetor tiver ao menos um valor n√£o-nulo: */
     else{
     /* Mostra o vetor D: */
     printf("\n Vetor inicial D: \n [ ");
@@ -44,7 +44,7 @@ int main()
 
     /* Cria e escreve o vetor_naonulo: */
     int vetor_naonulo[contador],j=0;
-    printf("\n \n O vetor novo com valores n„o-nulos (com %d posiÁ„o/posiÁıes) È: \n [ ",contador);
+    printf("\n \n O vetor novo com valores n√£o-nulos (com %d posi√ß√£o/posi√ß√µes) √©: \n [ ",contador);
         for(int i=0;i<TAM;i++){
             if(vetor[i]!=0){
                 vetor_naonulo[j]=vetor[i];
