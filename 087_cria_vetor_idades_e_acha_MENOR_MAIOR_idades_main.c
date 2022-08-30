@@ -3,13 +3,13 @@
 #include <locale.h>
 /*LISTA 4
 6) Ler um vetor A com 10 elementos inteiros correspondentes as idades de um grupo de pessoas.
-Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posições.
+Escreva um programa que determine e escreva a menor e a maior idades e suas respectivas posiÃ§Ãµes.
 */
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
-    /* Declara as variáveis: */
+    /* Declara as variÃ¡veis: */
     int TAM=10, idade,maior,menor,posicao_menor,posicao_maior;
     int vetor[TAM];
 
@@ -24,7 +24,7 @@ int main() {
     printf("Digite a idade da pessoa %d:",i+1);
     scanf("%d",&idade);
     vetor[i]=idade;
-    /* Verifica quais idades são MAIOR e MENOR: */
+    /* Verifica quais idades sÃ£o MAIOR e MENOR: */
         if (idade>maior){
         maior=idade;
         posicao_maior=i;}
@@ -39,9 +39,9 @@ int main() {
     for(int i=0;i<TAM;i++){
     printf("  %d   ", vetor[i]);}
 
-    /*Mostra os números MAIOR e MENOR:*/
-    printf("\n \n Maior idade: %d \n - na posição: %d \n",maior,posicao_maior);
-    printf("\n Menor idade: %d \n - na posição %d \n",menor,posicao_menor);
+    /*Mostra os nÃºmeros MAIOR e MENOR:*/
+    printf("\n \n Maior idade: %d \n - na posiÃ§Ã£o: %d \n",maior,posicao_maior);
+    printf("\n Menor idade: %d \n - na posiÃ§Ã£o %d \n",menor,posicao_menor);
 
     return 0;
 }
