@@ -5,7 +5,7 @@
 /*LISTA 4
 8)Ler um vetor R de 5 elementos contendo o gabarito da LOTO. A seguir ler um vetor A de 10 elementos contendo uma aposta.
 A seguir imprima quantos pontos fez o apostador.
-Obs.: Vou reaproveitar o código escrito no exercício anterior(7):
+Obs.: Vou reaproveitar o cÃ³digo escrito no exercÃ­cio anterior(7):
 */
 
 int main()
@@ -13,15 +13,15 @@ int main()
     /* Para poder usar acentos e etc:*/
     setlocale(LC_ALL, "Portuguese");
 
-    /* Declara as variáveis: */
+    /* Declara as variÃ¡veis: */
     int numero,tam_R=5,tam_A=10;
     int vetor_R[tam_R];
     int vetor_A[tam_A];
     int tam_X=0;
 
-    /* Lê os valores e aloca no VETOR R: */
+    /* LÃª os valores e aloca no VETOR R: */
     for (int i=0;i<tam_R;i++){
-        printf("Digite o número %d do GABARITO DA LOTO: ",i+1);
+        printf("Digite o nÃºmero %d do GABARITO DA LOTO: ",i+1);
         scanf("%d",&numero);
         vetor_R[i]=numero;
     }
@@ -33,9 +33,9 @@ int main()
     }
     printf("\n *************** \n");
 
-    /* Lê os valores e aloca no VETOR A: */
+    /* LÃª os valores e aloca no VETOR A: */
     for (int j=0;j<tam_A;j++){
-        printf("Digite o número %d da APOSTA REALIZADA: ",j+1);
+        printf("Digite o nÃºmero %d da APOSTA REALIZADA: ",j+1);
         scanf("%d",&numero);
         vetor_A[j]=numero;
     }
@@ -72,7 +72,7 @@ int main()
 
     /*Mostra o vetor X:*/
     if(tam_X>0){
-    printf("\n O apostador acertou os seguintes números na aposta: \n");
+    printf("\n O apostador acertou os seguintes nÃºmeros na aposta: \n");
     for (int k=0;k<tam_X;k++){
         printf("%d  ",vetor_X[k]);
     }
@@ -80,7 +80,7 @@ int main()
     printf("\n \n ****** Programa Finalizado! ****** \n");
     }
     else
-    printf("\n *** Ops! Não foi dessa vez! *** \n Não houve acertos! \n ****** Programa Finalizado! ****** \n");
+    printf("\n *** Ops! NÃ£o foi dessa vez! *** \n NÃ£o houve acertos! \n ****** Programa Finalizado! ****** \n");
 
     return 0;
 }
