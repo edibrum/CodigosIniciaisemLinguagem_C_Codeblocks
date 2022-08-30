@@ -3,29 +3,29 @@
 #include <locale.h>
 
 /*LISTA 4
-10) Elabore um algoritmo que leia um vetor e em seguida apresente o vetor ordenado ñ use o mÈtodo de ordenaÁ„o que preferir. */
+10) Elabore um algoritmo que leia um vetor e em seguida apresente o vetor ordenado ‚Äì use o m√©todo de ordena√ß√£o que preferir. */
 
 int main()
 {
     /* Para poder usar acentos e etc:*/
     setlocale(LC_ALL, "Portuguese");
 
-    /* Declara as vari·veis: */
+    /* Declara as vari√°veis: */
     int TAM,aux;
     int vetor[TAM],min;
 
-    /* O usu·rio escolhe o tamanho do vetor: */
+    /* O usu√°rio escolhe o tamanho do vetor: */
     printf("Digite o tamanho do vetor: ");
     scanf("%d",&TAM);
 
     if(TAM<=0){
-        printf("\n O vetor seria NULO ou n„o existiria! \n Reinicie o programa e digite um valor inteiro maior que zero! \n \n ");
+        printf("\n O vetor seria NULO ou n√£o existiria! \n Reinicie o programa e digite um valor inteiro maior que zero! \n \n ");
     }
 
     else{
-    /* Pede ao usu·rio os valores para as posiÁıes dentro do vetor: */
+    /* Pede ao usu√°rio os valores para as posi√ß√µes dentro do vetor: */
     for(int i=0;i<TAM;i++){
-        printf("\n Digite o valor para a posiÁ„o %d do vetor: ",i);
+        printf("\n Digite o valor para a posi√ß√£o %d do vetor: ",i);
         scanf("%d",&vetor[i]);
     }
 
@@ -36,7 +36,7 @@ int main()
     }
     printf(" ] \n");
 
-    /*Inicia a reordenaÁ„o - ser„o dois "FOR" para fazer isso:*/
+    /*Inicia a reordena√ß√£o - ser√£o dois "FOR" para fazer isso:*/
     for(int i=0;i<TAM;i++){
         min=i;
 
