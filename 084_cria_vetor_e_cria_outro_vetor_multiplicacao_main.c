@@ -8,13 +8,13 @@ do vetor A multiplicados por 2, ou seja: B[i] = A[i] * 2. */
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
-    /* Declara as variáveis: */
+    /* Declara as variÃ¡veis: */
     int TAM=8,numero;
     int vetor_A[TAM],vetor_B[TAM];
 
-    /*Lê os números e aloca dentro do vetor:*/
+    /*LÃª os nÃºmeros e aloca dentro do vetor:*/
     for(int i=0;i<TAM;i++){
-        printf("\n Digite o número %d do vetor:",i+1);
+        printf("\n Digite o nÃºmero %d do vetor:",i+1);
         scanf("%d",&numero);
         vetor_A[i]=numero;
         vetor_B[i]=numero*2;
