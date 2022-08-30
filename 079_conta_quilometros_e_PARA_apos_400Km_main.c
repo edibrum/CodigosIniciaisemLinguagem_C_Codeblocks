@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <locale.h>
 /*LISTA 3
-22)Um viajante decidiu se aventurar e percorrer toda a BR 101 de carro a partir do quilômetro 0 até
-ultrapassar o quilômetro 4000, parando em várias cidades durante o percurso. Crie um algoritmo que,
-em cada cidade que o viajante parar, leia a informação da quilometragem percorrida e adicione ao valor
+22)Um viajante decidiu se aventurar e percorrer toda a BR 101 de carro a partir do quilÃ´metro 0 atÃ©
+ultrapassar o quilÃ´metro 4000, parando em vÃ¡rias cidades durante o percurso. Crie um algoritmo que,
+em cada cidade que o viajante parar, leia a informaÃ§Ã£o da quilometragem percorrida e adicione ao valor
 da quilometragem total. Encerre o algoritmo quando o valor da quilometragem total percorrida for igual
 ou ultrapassar os 4000 km. */
 
@@ -13,7 +13,7 @@ int main()
     /* Para poder usar acentos e etc.:*/
     setlocale(LC_ALL, "Portuguese");
 
-    /*Cria as variáveis: */
+    /*Cria as variÃ¡veis: */
     int cidades_paradas=0;
     float km_percorrida,km_total=0.00;
     char cidade[20];
