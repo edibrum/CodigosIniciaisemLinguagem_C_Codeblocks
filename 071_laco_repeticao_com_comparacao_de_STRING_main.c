@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h> /*A biblioteca <string.h> ser· ˙til quando precisarmos manipular vari·veis do tipo CHAR ou STRING! */
+#include <string.h> /*A biblioteca <string.h> ser√° √∫til quando precisarmos manipular vari√°veis do tipo CHAR ou STRING! */
 
 /*LISTA 3
-14)FaÁa um algoritmo que escreva a diversas vezes a pergunta ìOl· tudo bem?î e leia a resposta do usu·rio
-enquanto ele responde n„o. SÛ encerre a execuÁ„o quando a resposta for igual a ìSimî. */
+14)Fa√ßa um algoritmo que escreva diversas vezes a pergunta ‚ÄúOl√° tudo bem?‚Äù e leia a resposta do usu√°rio
+enquanto ele responde n√£o. S√≥ encerre a execu√ß√£o quando a resposta for igual a ‚ÄúSim‚Äù. */
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
     printf("Ola, tudo bem? \n ");
     scanf("%s",resposta);
 
-    /*Obs.: o comando STRCMP faz a comaparacao do valor recebido na vari·vel STRING/CHAR  e compara com o valor escrito entre "",
+    /*Obs.: o comando STRCMP faz a comaparacao do valor recebido na vari√°vel STRING/CHAR  e compara com o valor escrito entre "",
     devolvendo 0 para verdadeiro e (-1) para falso */
     while (strcmp(resposta,"sim") != 0)
     {
