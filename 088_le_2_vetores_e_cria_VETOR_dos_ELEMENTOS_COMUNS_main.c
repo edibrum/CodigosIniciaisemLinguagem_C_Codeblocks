@@ -3,23 +3,23 @@
 #include <locale.h>
 
 /*LISTA 4
-7)Ler 2 vetores, R de 5 elementos e S de 10 elementos. Gere um vetor X que possua os elementos comuns a
-R e a S. Considere que no mesmo vetor não haverá números repetidos. Escrever o vetor X. */
+7) Ler 2 vetores, R de 5 elementos e S de 10 elementos. Gere um vetor X que possua os elementos comuns a
+R e a S. Considere que no mesmo vetor nÃ£o haverÃ¡ nÃºmeros repetidos. Escrever o vetor X. */
 
 int main()
 {
     /* Para poder usar acentos e etc:*/
     setlocale(LC_ALL, "Portuguese");
 
-    /* Declara as variáveis: */
+    /* Declara as variÃ¡veis: */
     int numero,tam_R=5,tam_S=10;
     int vetor_R[tam_R];
     int vetor_S[tam_S];
     int tam_X=0;
 
-    /* Lê os valores e aloca no VETOR R: */
+    /* LÃª os valores e aloca no VETOR R: */
     for (int i=0;i<tam_R;i++){
-        printf("Digite o valor da posição %d do vetor R: ",i+1);
+        printf("Digite o valor da posiÃ§Ã£o %d do vetor R: ",i+1);
         scanf("%d",&numero);
         vetor_R[i]=numero;
     }
@@ -32,9 +32,9 @@ int main()
 
 
 
-    /* Lê os valores e aloca no VETOR S: */
+    /* LÃª os valores e aloca no VETOR S: */
     for (int j=0;j<tam_S;j++){
-        printf("Digite o valor da posição %d do vetor S: ",j+1);
+        printf("Digite o valor da posiÃ§Ã£o %d do vetor S: ",j+1);
         scanf("%d",&numero);
         vetor_S[j]=numero;
     }
@@ -47,7 +47,7 @@ int main()
 
 
 
-    /* Verifica os valores que serão iguais e determina o tamanho do vetor X: */
+    /* Verifica os valores que serÃ£o iguais e determina o tamanho do vetor X: */
     for (int i=0;i<tam_R;i++){
         for (int j=0;j<tam_S;j++){
             if(vetor_R[i]==vetor_S[j])
@@ -55,7 +55,7 @@ int main()
         }
     }
 
-    printf("\n O tamanho do vetor X será: %d",tam_X);
+    printf("\n O tamanho do vetor X serÃ¡: %d",tam_X);
     printf("\n *************** \n");
     /* Cria o vetor X: */
     int vetor_X[tam_X];
@@ -72,7 +72,7 @@ int main()
     }
 
     /*Mostra o vetor X:*/
-    printf("\n E o VETOR X é: \n");
+    printf("\n E o VETOR X Ã©: \n");
     for (int k=0;k<tam_X;k++){
         printf("%d  ",vetor_X[k]);
     }
