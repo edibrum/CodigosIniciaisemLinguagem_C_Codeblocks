@@ -6,11 +6,11 @@
 
 int main()
 {
-    /*Cria as vari·veis: */
+    /*Cria as vari√°veis: */
     int idade,novinha;
     char nome[20],novinhaname[20];
 
-    /*Pede que o usu·rio digite as idades e os nomes: */
+    /*Pede que o usu√°rio digite as idades e os nomes: */
     for (int i=1;i<=3;i++)
     {
     printf("\n Digite o nome da PESSOA %d:  ",i);
@@ -25,7 +25,7 @@ int main()
         }
     }
 
-    /*Mostra quem È a pessoa mais jovem: */
+    /*Mostra quem √© a pessoa mais jovem: */
     printf("\n ************* \n A pessoa mais jovem e: %s \n",novinhaname);
 
     return 0;
