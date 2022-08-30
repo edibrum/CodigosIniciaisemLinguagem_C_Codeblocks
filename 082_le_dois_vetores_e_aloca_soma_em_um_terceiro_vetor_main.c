@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <locale.h>
 /*LISTA 4
-1) Escreva um programa que leia dois vetores de 10 posições e faça a soma dos elementos de mesmo índice, colocando o resultado
+1) Escreva um programa que leia dois vetores de 10 posiÃ§Ãµes e faÃ§a a soma dos elementos de mesmo Ã­ndice, colocando o resultado
 em um terceiro vetor. Mostre o vetor resultante. */
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
-    /* Declara as variáveis: */
+    /* Declara as variÃ¡veis: */
     int numero1,numero2;
     int TAM=10;
     int vetor1[TAM],vetor2[TAM],vetor_soma[TAM];
@@ -16,11 +16,11 @@ int main() {
 
     /* Recebe os valores e aloca eles dentro do vetor: */
     for(int contador=0;contador<TAM;contador++){
-    printf("Digite o número %d do primeiro vetor:",contador+1);
+    printf("Digite o nÃºmero %d do primeiro vetor:",contador+1);
     scanf("%d",&numero1);
     vetor1[contador]=numero1;
 
-    printf("Digite o número %d do segundo vetor:",contador+1);
+    printf("Digite o nÃºmero %d do segundo vetor:",contador+1);
     scanf("%d",&numero2);
     vetor2[contador]=numero2;
 
