@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <locale.h>
 /*LISTA 4
-4) Criar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C, onde cada elemento de C È a soma dos
+4) Criar dois vetores A e B cada um com 10 elementos inteiros. Construir um vetor C, onde cada elemento de C √© a soma dos
 respectivos elementos em A e B, ou seja: C[i] = A[i] + B[i]. */
 
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
-   /* Declara as vari·veis: */
+   /* Declara as vari√°veis: */
     int numero1,numero2;
     int TAM=10;
     int vetorA[TAM],vetorB[TAM],vetorC[TAM];
@@ -16,11 +16,11 @@ int main() {
 
     /* Recebe os valores e aloca eles dentro do vetor: */
     for(int contador=0;contador<TAM;contador++){
-    printf("\n Digite o n˙mero %d do vetor A:",contador+1);
+    printf("\n Digite o n√∫mero %d do vetor A:",contador+1);
     scanf("%d",&numero1);
     vetorA[contador]=numero1;
 
-    printf("Digite o n˙mero %d do vetor B:",contador+1);
+    printf("Digite o n√∫mero %d do vetor B:",contador+1);
     scanf("%d",&numero2);
     vetorB[contador]=numero2;
 
