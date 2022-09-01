@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-/* Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o maior número
-primo que é menor ou igual a n. */
+/* Escreva uma funÃ§Ã£o que recebe um nÃºmero inteiro n passado por parÃ¢metro e devolve o maior nÃºmero
+primo que Ã© menor ou igual a n. */
 
 int encontra_maior_primo (int numero);
 
@@ -12,17 +12,17 @@ int main(){
 
     int numero=-2;
 
-    printf("\n Digite um número inteiro positivo entre 0 e 100: \n");
+    printf("\n Digite um nÃºmero inteiro positivo entre 0 e 100: \n");
     scanf("%d",&numero);
 
 
     if(numero>=0 && numero<=100){
     encontra_maior_primo (numero);
-    printf("\n Maior número primo que é MENOR OU IGUAL ao número %d é o: %d \n",numero,encontra_maior_primo(numero));
+    printf("\n Maior nÃºmero primo que Ã© MENOR OU IGUAL ao nÃºmero %d Ã© o: %d \n",numero,encontra_maior_primo(numero));
     }
 
     else
-    printf("\n \n Valor inválido! Reinicie o programa e PRESTE MAIS ATENÇÃO às orientações!\n");
+    printf("\n \n Valor invÃ¡lido! Reinicie o programa e PRESTE MAIS ATENÃ‡ÃƒO Ã s orientaÃ§Ãµes!\n");
 
     return 0;
 }
