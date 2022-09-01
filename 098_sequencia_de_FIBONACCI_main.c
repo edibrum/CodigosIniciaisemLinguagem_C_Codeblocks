@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /* LISTA 3
-3) Escreva uma função que recebe um número inteiro n passado por parâmetro e devolve o primeiro número da
-série de fibonacci que é maior ou igual a n. */
+3) Escreva uma funÃ§Ã£o que recebe um nÃºmero inteiro n passado por parÃ¢metro e devolve o primeiro nÃºmero da
+sÃ©rie de fibonacci que Ã© maior ou igual a n. */
 
 int main()
 {
