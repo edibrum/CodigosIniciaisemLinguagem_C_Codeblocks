@@ -4,13 +4,13 @@
 #include <math.h>
 
 /* LISTA EXTRA
-7) Escreva uma funÁ„o chamada teste que recebe um valor inteiro positivo n como par‚metro. Sua
-funÁ„o deve retornar um valor inteiro b tal que b^k = n para algum inteiro k, e b seja o menor possÌvel.
+Escreva uma fun√ß√£o chamada teste que recebe um valor inteiro positivo n como par√¢metro. Sua
+fun√ß√£o deve retornar um valor inteiro b tal que b^k = n para algum inteiro k, e b seja o menor poss√≠vel.
 
-VARI¡VEIS GLOBAIS: */
+VARI√ÅVEIS GLOBAIS: */
 int b=0,potencia=1;
 
-/* LISTA AS FUN«’ES: */
+/* LISTA AS FUN√á√ïES: */
 int enunciado_receber_valor (int n);
 void teste(int n);
 
@@ -20,11 +20,11 @@ int main()
     int n,numero;
     setlocale(LC_ALL,"");
 
-    /* Chama a funÁ„o para ler o n˙mero que o usu·rio vai digitar: */
+    /* Chama a fun√ß√£o para ler o n√∫mero que o usu√°rio vai digitar: */
     numero=enunciado_receber_valor(n);
     //printf("\n NUMERO RECEBIDO: %d",numero);
 
-    /* Chama a funÁ„o para testar e encontrar os dois inteiros da potencia: */
+    /* Chama a fun√ß√£o para testar e encontrar os dois inteiros da potencia: */
     teste(numero);
     //printf("\n %d",numero);
 
@@ -32,14 +32,14 @@ int main()
 }
 
 
-/* FunÁ„o para ler o n˙mero que o usu·rio vai digitar: */
+/* Fun√ß√£o para ler o n√∫mero que o usu√°rio vai digitar: */
 int enunciado_receber_valor (int n){
-    printf("\n Digite um n˙mero: ");
+    printf("\n Digite um n√∫mero: ");
     scanf("%d",&n);
     return n;
 }
 
-/* FunÁ„o para testar e encontrar os dois inteiros da potencia: */
+/* Fun√ß√£o para testar e encontrar os dois inteiros da potencia: */
 void teste(int numero){
     int i=1,b,exp;
 
