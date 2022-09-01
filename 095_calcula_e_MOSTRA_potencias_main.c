@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <locale.h>
 
-/*Escreva uma função que computa a potência a^b para valores a (double) e b (int) passados por parâmetro
-(não use bibliotecas como math.h). Use a função anterior e crie um programa que imprima todas as potências:
+/*Escreva uma funÃ§Ã£o que computa a potÃªncia a^b para valores a (double) e b (int) passados por parÃ¢metro
+(nÃ£o use bibliotecas como math.h). Use a funÃ§Ã£o anterior e crie um programa que imprima todas as potÃªncias:
 2^0, 2^1, ..., 2^10, 3^0, ..., 3^10, ..., 10^10. */
 
 int main()
@@ -20,13 +20,13 @@ int main()
     scanf("%d",&expoente);
 
     if(expoente==0)
-    printf("POTÊNCIA: \n %d^%.2lf = %d",base,expoente,1);
+    printf("POTÃŠNCIA: \n %d^%.2lf = %d",base,expoente,1);
 
     else{
         for(int i=1;i<=expoente;i++){
             potencia=potencia*base;
         }
-        printf("POTÊNCIA: \n %.2lf ^ %d = %.2lf",base,expoente,potencia);
+        printf("POTÃŠNCIA: \n %.2lf ^ %d = %.2lf",base,expoente,potencia);
     }
 
     return 0;
